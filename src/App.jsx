@@ -10,7 +10,7 @@ import Contact from "./components/Bento/Contact";
 export default function Home() {
 	return (
 		<div className="min-h-screen max-w-[86rem] mx-auto p-5 ">
-			<nav className="w-full -mx-1 sticky z-10 top-0">
+			<nav className="w-full  sticky z-10 top-0">
 				<Card className="bg-muted p-2">
 					<ModeToggle />
 				</Card>
