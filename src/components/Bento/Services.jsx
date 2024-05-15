@@ -17,17 +17,17 @@ export default function Services({ ...props }) {
 			</CardHeader>
 			<CardContent className="h-full">
 				<div className="grid grid-cols-2 gap-6 [@media(min-width:919px)]:grid-cols-4 grid-rows-2 [@media(min-width:919px)]:grid-rows-1 w-full h-full justify-items-center items-center">
-					<Service text="Sopftware development">
-						<Vector w={90} h={90} className="fill-primary stroke-[0.5px]" />
+					<Service text="Software development">
+						<Vector w={60} h={60} className="fill-primary stroke-[0.5px]" />
 					</Service>
 					<Service text="Product design">
-						<Triangle w={90} h={90} className="fill-primary stroke-[0.5px]" />
+						<Triangle w={60} h={60} className="fill-primary stroke-[0.5px]" />
 					</Service>
 					<Service text="No-code">
-						<Rounded w={90} h={90} className="fill-primary stroke-[0.5px]" />
+						<Rounded w={60} h={60} className="fill-primary stroke-[0.5px]" />
 					</Service>
 					<Service text="prototyping">
-						<TriangleBis w={90} h={90} className="fill-primary stroke-[0.5px]" />
+						<TriangleBis w={60} h={60} className="fill-primary stroke-[0.5px]" />
 					</Service>
 				</div>
 			</CardContent>
