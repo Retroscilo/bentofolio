@@ -56,9 +56,9 @@ function Experience({ index = 0 }) {
 	const exp = experiences[index];
 	return (
 		<div className="flex gap-5">
-			<div className="text-lg text-gray-500 w-[100px]">{exp.date}</div>
+			<div className="text-lg text-gray-500 w-[50px] sm:w-[100px]">{exp.date}</div>
 			<div className="grid gap-1 grid-cols-[60px_1fr] grid-rows-2">
-				<div className="h-[50px] w-[50px] row-span-2 col-span-1 self-center bg-muted p-2 rounded-lg place-content-center ">
+				<div className="h-[50px] w-[50px] row-span-2 col-span-1 sm:self-center self-start bg-muted p-2 rounded-lg place-content-center ">
 					<img className="rounded-lg" src={exp.logo} alt="logo entreprise" />
 				</div>
 				<div className="text-lg font-bold">{exp.title}</div>
