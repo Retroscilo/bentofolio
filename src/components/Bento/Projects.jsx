@@ -25,7 +25,6 @@ export default function Projects({ ...props }) {
 function ProjectPeek({ name, media, tag }) {
 	return (
 		<div className="relative p-4 bg-muted border-inset rounded-lg">
-			<div className="absolute bg-black opacity-25 h-full w-full"></div>
 			<img className="rounded-lg w-full max-h-[220px] object-cover" src={media} alt="" />
 			<Badge className={"absolute bottom-5 -left-3"}> {tag}</Badge>
 		</div>
