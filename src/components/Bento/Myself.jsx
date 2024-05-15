@@ -28,7 +28,7 @@ export default function Myself({ ...props }) {
 		<Bento className={"col-span-1 row-span-2 flex flex-col justify-between " + props.className}>
 			<CardHeader>
 				<img
-					src="/public/loic.jpg"
+					src="/loic.jpg"
 					className="w-full rounded-lg max-h-[350px] object-cover"
 					alt="Photo de Loïc Torres"
 				/>
