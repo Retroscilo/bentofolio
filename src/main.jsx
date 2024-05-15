@@ -52,7 +52,7 @@ function Shader() {
 				color2={colors[effectiveTheme].color2}
 				color3={colors[effectiveTheme].color3}
 				brightness={0.7}
-				uStrength={2}
+				uStrength={4}
 				uDensity={2}
 			/>
 		</ShaderGradientCanvas>
