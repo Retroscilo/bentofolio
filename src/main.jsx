@@ -43,6 +43,7 @@ function Shader() {
 			}}
 		>
 			<ShaderGradient
+				range="disabled"
 				enableTransition={false}
 				uSpeed={0.1}
 				grain="off"

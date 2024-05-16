@@ -27,7 +27,7 @@ export default function WorkExp({ ...props }) {
 
 const experiences = [
 	{
-		date: "2021 - 2024",
+		date: "2021-2024",
 		title: "Full-stack developer",
 		company: "Tulip",
 		logo: "/tulip-logo.png",
@@ -55,14 +55,14 @@ const experiences = [
 function Experience({ index = 0 }) {
 	const exp = experiences[index];
 	return (
-		<div className="flex gap-5">
-			<div className="text-lg text-gray-500 w-[50px] sm:w-[100px]">{exp.date}</div>
-			<div className="grid gap-1 grid-cols-[60px_1fr] grid-rows-2">
-				<div className="h-[50px] w-[50px] row-span-2 col-span-1 sm:self-center self-start bg-muted p-2 rounded-lg place-content-center ">
+		<div className="flex gap-5 ">
+			<div className="text-lg text-gray-500 flex-1 max-w-[125px]">{exp.date}</div>
+			<div className="grid grid-cols-[60px_1fr] grid-rows-[30px_minmax(30px, 60px)] flex-2 min-w-[250px]">
+				<div className="h-[50px] w-[50px] row-span-2 col-span-1 sm:self-center self-start bg-muted p-2 rounded-lg  place-content-center">
 					<img className="rounded-lg" src={exp.logo} alt="logo entreprise" />
 				</div>
 				<div className="text-lg font-bold">{exp.title}</div>
-				<div className="text-gray-500">{exp.company}</div>
+				<div className="text-gray-500 col-start-2">{exp.company}</div>
 			</div>
 		</div>
 	);
