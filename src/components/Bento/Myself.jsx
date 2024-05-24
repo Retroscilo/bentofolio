@@ -39,7 +39,7 @@ export default function Myself({ ...props }) {
 					A passionate full-stack developer & product designer with 5 years of experience
 					in developing solutions for tech companies
 				</CardDescription>
-				<div className="w-full space-x-5">
+				<div className="w-full flex gap-5 flex-wrap">
 					<a href="tel:+33628921127">
 						<Button>
 							<IconDeviceMobileMessage className="mr-2" stroke={1} />
@@ -59,12 +59,16 @@ export default function Myself({ ...props }) {
 				</div>
 			</CardContent>
 			<CardFooter role="list" className="space-x-5">
-				<a href="https://github.com/Retroscilo" target="_blank">
+				<a href="https://github.com/Retroscilo" target="_blank" rel="noreferrer">
 					<Button role="listitem" variant="secondary">
 						<GithubIcon strokeWidth={1.2} size={20} fill="white" />
 					</Button>
 				</a>
-				<a href="https://www.linkedin.com/in/lo%C3%AFctorres/" target="_blank">
+				<a
+					href="https://www.linkedin.com/in/lo%C3%AFctorres/"
+					target="_blank"
+					rel="noreferrer"
+				>
 					<Button role="listitem" variant="secondary">
 						<LinkedinIcon strokeWidth={1.2} size={20} fill="white" />
 					</Button>
