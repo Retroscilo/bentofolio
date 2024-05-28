@@ -19,8 +19,8 @@ export default function Home() {
 			<WorkExp className="order-2" />
 			<Expertise className="order-4" />
 			<Projects className="col-span-1 row-span-2 order-3" />
-			<Services className="col-span-1 order-5 row-span-1 h-[20rem]" />
-			<Contact className="col-span-1 row-span-1 order-7 h-[20rem]" />
+			<Services className="col-span-1 order-5 row-span-1" />
+			<Contact className="col-span-1 row-span-1 order-7 " />
 			<Education className="col-span-1 row-span-1 order-6 h-[20rem]" />
 		</div>
 	);

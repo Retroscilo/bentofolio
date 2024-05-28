@@ -47,19 +47,3 @@ export default function Education({ ...props }) {
 		</Bento>
 	);
 }
-
-const El = ({ ...props }) => {
-	return (
-		<div className="grid grid-cols-[50px_1fr]">
-			<h3 className="col-start-2 text-lg sm:text-xl font-semibold">
-				Bachelor Developpement web
-			</h3>
-			<p className="col-start-2 text-sm ">@HETIC - option technologies WEB</p>
-			<p className="col-start-2 text-sm ">Montreuil, 2018-2021</p>
-			<p className="col-start-2 text-sm ">Titre RNCP niveau 6</p>
-			<div className="rounded-lg overflow-hidden bg-muted p-1 row-start-1">
-				<img className="rounded-[50%]" src={props.media} alt="logo hetic" />
-			</div>
-		</div>
-	);
-};
